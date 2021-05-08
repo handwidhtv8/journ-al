@@ -1,8 +1,8 @@
-# Project 2 GG-Gaming
+# Project 2 Journal app
 
 ### Description:
 
-GG-Gaming is a game tip creator that users will use to keep track of various tips they see useful in any game of their choice! They can also keep track of their tips they create for others as well!
+Journal entry maker
 
 
 ## Technologies Used:
@@ -17,8 +17,5 @@ GG-Gaming is a game tip creator that users will use to keep track of various tip
 - Mongoose
 - EJS
 
-![Wireframe](./images/GG-gaming.png)
-
-![ERD](./images/ggerd.png)
 
 ## [Click Here](#) to access my application!
