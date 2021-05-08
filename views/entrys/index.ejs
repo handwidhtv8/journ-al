@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/index.css">
+  <title>Journal</title>
+</head>
+
+<body>
+  <h1>Entry List</h1>
+  <a href="/" class="home">Home</a>
+  <div class="container">
+    <ul>
+      <% entrys.forEach(function(entry) { %>
+        <div class="tipbox">
+        <form action="/entrys/<%= entry._id %>?_method=DELETE" class="delete-form" method="POST">
+          <button type="submit">Delete</button>
+          <a href="/entrys/<%= entry._id %>/edit" class="edit-btn">Edit</a>
+          <a href="/entrys/<%= entry._id %>" id="view">View</a>
+        </form>
+        <li>
+          <p class="act-text">
+          <%= entry.text %>
+          </p>
+      </li>
+      </div>  
+      <% }); %>
+    </ul>
+  </div>
+
+  <a href="/entrys/new" id="create">Create New</a>
+</body>
+
+</html>

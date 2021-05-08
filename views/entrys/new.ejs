@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/new.css">
+  <title>Journal</title>
+</head>
+
+<body>
+  <h1>New Entry</h1>
+  <form action="/entrys" method="POST" autocomplete="off">
+    <textarea name="text" id="text" rows="4" cols="50"></textarea>
+    <label for="img">Select image:</label>
+    <input type="file" id="img" name="img" accept="image/*">
+    <button type="submit" id="submit-btn">Save</button>
+  </form>
+</body>
+
+</html>
