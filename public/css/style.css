@@ -4,6 +4,7 @@
 body, html {
     background-color: #c9c9c9;
     margin: 0;
+    text-align: center;
 }
 
 header {
@@ -16,7 +17,7 @@ header {
 }
 
 h1 {
-    font-family: 'Saira Stencil One', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     background: -webkit-linear-gradient(white, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -53,22 +54,11 @@ p {
 }
 
 .start {
-
-}
-
-/* .start:hover {
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px;
     text-decoration: none;
-    padding: 50px 30px;
-    font-family: Helvetica;
-    color: #e6e6e6;
-    background-color: #b40a0a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 100px 0px 100px;
-    border-radius: 300px;
-    width: 8.5%;
-    text-align: center; 
-} */
+    font-family: Arial, Helvetica, sans-serif;
+}
 
  
