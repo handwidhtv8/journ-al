@@ -4,6 +4,25 @@
 body, html {
     background-color: #c9c9c9;
     margin: 0;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 header {
@@ -51,4 +70,37 @@ li {
 p {
     font-family: 'Source Code Pro';
     color: darkgreen;
+}
+
+input, label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.journ {
+    width: 1000px;
+    height: 500px;
+}
+
+button {
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: black;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+.img-thing {
+    margin-left: 900px;
 }

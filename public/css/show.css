@@ -7,6 +7,24 @@ body, html {
     text-align: center;
 }
 
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 header {
     background-color: rgb(0, 100, 0, 0.5);
     display: flex;
@@ -61,3 +79,12 @@ a {
     background-color: #e7e7e7;
     border-radius: 5px;
 }
+
+h3 {
+    background-color: white;
+    padding: 50px;
+    margin-top: 20px;
+    margin: 70px 500px;
+    border-radius: 20px;
+}
+
